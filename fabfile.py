@@ -23,7 +23,7 @@ def deploy(c):
     supervisor_conf_path = '~/etc/'
     supervisor_program_name = 'MyDjangoBlog'
 
-    project_root_path = '~/etc/apps/MyDjangoBlog'
+    project_root_path = '~/etc/apps/MyDjangoBlog/'
 
     # 先停止应用
     with c.cd(supervisor_conf_path):
